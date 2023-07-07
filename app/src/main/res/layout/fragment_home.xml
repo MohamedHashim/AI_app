@@ -6,21 +6,10 @@
     android:layout_height="match_parent"
     android:layout_marginTop="80dp">
 
-<!--    <view-->
-<!--        android:id="@+id/object_detector_group"-->
-<!--        android:layout_width="0dp"-->
-<!--        android:layout_height="0dp"-->
-<!--        app:layout_constraintStart_toStartOf="@+id/img_object_detection"-->
-<!--        app:layout_constraintEnd_toEndOf="@+id/img_object_detection"-->
-<!--        app:layout_constraintBottom_toBottomOf="@id/txt_object_detection"-->
-<!--        app:layout_constraintTop_toTopOf="@+id/img_object_detection"-->
-<!--        app:constraint_referenced_ids="img_object_detection,txt_object_detection" />-->
-
-    <ImageButton
+    <ImageView
         android:id="@+id/img_object_detection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:src="@drawable/object_detection_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +19,6 @@
         android:id="@+id/txt_object_detection"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:background="@color/mp_primary"
         android:padding="12dp"
         android:text="@string/object_detection_txt"
@@ -55,7 +43,6 @@
         android:id="@+id/txt_gesture_recognition"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:background="@color/mp_primary"
         android:padding="12dp"
         android:text="@string/gesture_recognition_txt"

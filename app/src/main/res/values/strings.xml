@@ -1,3 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
-    <string name="app_name">AI_app</string>
+    <string name="app_name">AI app</string>
+
+    <string name="label_confidence_threshold">Threshold</string>
+    <string name="label_max_results">Max Results</string>
+    <string name="label_models">ML Model</string>
+    <string name="object_detection_txt">Object Detection</string>
+    <string name="gesture_recognition_txt">Gesture Recognition</string>
+
+    <string name="alt_bottom_sheet_chevron">Bottom sheet expandable indicator</string>
+
+    <string name="alt_bottom_sheet_max_results_button_minus">Decreasing
+        maximum recognized results button</string>
+    <string name="alt_bottom_sheet_max_results_button_plus">Increasing maximum recognized results
+        button</string>
+    <string name="alt_bottom_sheet_threshold_button_minus">Decreasing
+        threshold of recognized hand gesture results button</string>
+    <string name="alt_bottom_sheet_threshold_button_plus">Increasing
+        threshold of recognized hand gesture results button</string>
+
+    <string name="label_inference_time">Inference Time</string>
+    <string name="label_hand_detection_confidence_threshold">Detection
+        Threshold</string>
+    <string name="label_hand_tracking_confidence_threshold">Tracking
+        Threshold</string>
+    <string name="label_hand_presence_confidence_threshold">Presence
+        Threshold</string>
+    <string name="label_delegate">Delegate</string>
+
+    <string-array name="delegate_spinner_titles">
+        <item>CPU</item>
+        <item>GPU</item>
+    </string-array>
+
+    <string-array name="models_spinner_titles">
+        <item>EfficientDet Lite0</item>
+        <item>EfficientDet Lite2</item>
+    </string-array>
 </resources>
