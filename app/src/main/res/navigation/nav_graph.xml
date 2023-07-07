@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.mohamed.ai_app.ui.dashboard.HomeFragment"
+        android:label="HomeFragment">
+
+        <action
+            android:id="@+id/action_home_to_object_detector_camera"
+            app:destination="@id/object_detector_camera_fragment"
+            app:popUpTo="@id/home_fragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/action_home_to_gesture_recognizer_camera"
+            app:destination="@id/gesture_recognizer_camera_fragment"
+            app:popUpTo="@id/home_fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/object_detector_camera_fragment"
+        android:name="com.mohamed.ai_app.ui.object_detector.CameraFragment"
+        android:label="Object Detector CameraFragment">
+
+        <action
+            android:id="@+id/action_camera_to_home"
+            app:destination="@id/home_fragment"
+            app:popUpTo="@id/object_detector_camera_fragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/gesture_recognizer_camera_fragment"
+        android:name="com.mohamed.ai_app.ui.gesture_recognizer.CameraFragment"
+        android:label="Gesture recognizer CameraFragment">
+
+        <action
+            android:id="@+id/action_camera_to_home"
+            app:destination="@id/home_fragment"
+            app:popUpTo="@id/home_fragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+</navigation>
