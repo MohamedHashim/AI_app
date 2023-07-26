@@ -89,6 +89,12 @@ class HomeFragment : Fragment() {
                 R.id.fragment_container,
             ).navigate(HomeFragmentDirections.actionHomeToGestureRecognizerCamera())
         }
+        fragmentHomeBinding.imgTextClassifier.setOnClickListener {
+            Navigation.findNavController(
+                requireActivity(),
+                R.id.fragment_container,
+            ).navigate(HomeFragmentDirections.actionHomeFragmentToTextClassifierFragment())
+        }
         return fragmentHomeBinding.root
     }
 

@@ -21,6 +21,9 @@
             app:destination="@id/gesture_recognizer_camera_fragment"
             app:popUpTo="@id/home_fragment"
             app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_home_fragment_to_textClassifierFragment"
+            app:destination="@id/textClassifierFragment" />
     </fragment>
 
     <fragment
@@ -48,5 +51,9 @@
             app:popUpToInclusive="true" />
 
     </fragment>
+    <fragment
+        android:id="@+id/textClassifierFragment"
+        android:name="com.mohamed.ai_app.ui.textclassifier.TextClassifierFragment"
+        android:label="TextClassifierFragment" />
 
 </navigation>
