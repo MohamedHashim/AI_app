@@ -38,4 +38,14 @@
         <item>EfficientDet Lite0</item>
         <item>EfficientDet Lite2</item>
     </string-array>
+
+    <string name="text_classifier_txt">Text Classification</string>
+    <string name="model_wordvec">AverageWordVec</string>
+    <string name="model_mobilebert">MobileBERT</string>
+    <string name="result_display_text">%1$s (%2$f)</string>
+    <string name="classify_btn_text">Classify</string>
+    <string name="default_edit_text">Google has released 24 versions of the Android operating
+        system since 2008 and continues to make substantial investments to develop, grow,
+        and improve the OS.</string>
+
 </resources>

@@ -18,5 +18,5 @@
 
     <include
         android:id="@+id/bottom_sheet_layout"
-        layout="@layout/info_bottom_sheet" />
+        layout="@layout/object_detector_info_bottom_sheet" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
